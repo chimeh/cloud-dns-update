@@ -104,6 +104,7 @@ def monitor_domain(domain, subdomain, secretId, secretKey,my_ip):
         if not is_ip:
             add_dns_record_ip(service, domain,subdomain, outip)
             print("[dns_tool]:Create a new ip record for domain: "+subdomain +"."+domain)
+    sys.stdout.flush()
 
 def main():
     default_secretid = os.environ.get("SECRETID", 'YOURsecretid')
