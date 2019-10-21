@@ -4,4 +4,4 @@ qcloudapi-sdk-python==2.0.15
 request==2019.3.22
 requests==2.21.0
 tencentcloud-sdk-python==3.0.60
-urllib3==1.24.1
+urllib3==1.24.2
