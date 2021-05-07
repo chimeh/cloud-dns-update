@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# borrow code from https://github.com/patrickwangqy/AutoUpdateDomain.git
-# whith modify by hjm
 from QcloudApi.qcloudapi import QcloudApi
 import requests
 import json
